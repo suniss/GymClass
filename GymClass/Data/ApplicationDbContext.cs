@@ -1,14 +1,12 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GymClass.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class GymClassDbContext : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public DbSet<GymClassDbContext> GymClass { get; set; }
+        public GymClassDbContext(DbContextOptions<GymClassDbContext> options)
             : base(options)
         {
         }
