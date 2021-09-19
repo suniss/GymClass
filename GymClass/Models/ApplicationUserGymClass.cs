@@ -7,5 +7,6 @@ namespace GymClass.Models
 {
     public class ApplicationUserGymClass
     {
+        public int Id { get; set; }
     }
 }
