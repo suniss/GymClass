@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymClass", "GymClass\GymClass.csproj", "{95EC6F16-F1BB-4B12-96F3-76E79526D317}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymClass", "GymClass\GymClass.csproj", "{95EC6F16-F1BB-4B12-96F3-76E79526D317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.core", "Booking.core\Booking.core.csproj", "{7BACF062-9C88-4B32-8706-5EE81A244687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Data", "Booking.Data\Booking.Data.csproj", "{0BF062C9-2B0E-4A89-9B19-46C2E9D68649}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{95EC6F16-F1BB-4B12-96F3-76E79526D317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95EC6F16-F1BB-4B12-96F3-76E79526D317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95EC6F16-F1BB-4B12-96F3-76E79526D317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BACF062-9C88-4B32-8706-5EE81A244687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BACF062-9C88-4B32-8706-5EE81A244687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BACF062-9C88-4B32-8706-5EE81A244687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BACF062-9C88-4B32-8706-5EE81A244687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF062C9-2B0E-4A89-9B19-46C2E9D68649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF062C9-2B0E-4A89-9B19-46C2E9D68649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF062C9-2B0E-4A89-9B19-46C2E9D68649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF062C9-2B0E-4A89-9B19-46C2E9D68649}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
